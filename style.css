@@ -97,29 +97,52 @@ span{
         height: 100%;
     }
 }
-@media (max-width: 600px) {
-    .container {
-        padding: 20px;
+@media (max-width: 768px) {
+    .col, .col1 {
+        flex-basis: 100%;
+        padding-left: 0;
     }
 
     h2 {
-        font-size: 30px;
+        font-size: 40px;
         padding-left: 0;
         margin-bottom: 20px;
     }
 
     p {
-        font-size: 12px;
+        font-size: 13px;
         margin-left: 0;
-        padding-bottom: 20px;
     }
 
-    .content a {
-        font-size: 18px;
+    .col1 a {
+        font-size: 20px;
         margin-right: 10px;
     }
 
     span {
         font-size: 1.5rem;
+    }
+
+    .background-clip {
+        width: auto;
+        height: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    h2 {
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    .col1 a {
+        font-size: 18px;
+    }
+
+    span {
+        font-size: 1.2rem;
     }
 }
