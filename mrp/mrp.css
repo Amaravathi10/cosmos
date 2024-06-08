@@ -131,11 +131,10 @@ footer {
     bottom: 0;
     width: 100%;
 }
-@media (max-width: 700px) {
+@media (max-width: 500px) {
     .container {
         padding-left: 5%;
-        padding-right: 5%;
-    }
+    } 
 
     .navbar {
         height: auto;
