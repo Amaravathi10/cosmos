@@ -103,37 +103,35 @@ span{
         height: 100vh;
     }
     h2 {
-        font-size: 0.5rem;
         text-align: center;
+        font-size: 0.75rem;
     }
 
     .explanation p {
-        width: 20ch;
+        width: 10ch;
     }
 
     .col1 a {
-        font-size: 0.5rem;
+        font-size: 1rem;
     }
 
-    .background-clip {
-        width: 100%;
-        height: auto;
-        background-attachment: fixed;
+    span {
+        font-size: 1.5rem;
     }
     
 }
 
 @media (max-width: 480px) {
     h2 {
-        font-size: 0.5rem;
+        font-size: 1rem;
     }
 
     p {
-        font-size: 0.5rem;
+        font-size: 0.75rem;
     }
 
     .col1 a {
-        font-size: 0.5rem;
+        font-size: 0.75rem;
     }
 
     
