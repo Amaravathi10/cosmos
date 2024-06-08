@@ -103,15 +103,14 @@ span{
         height: 100vh;
     }
     h2 {
-        text-align: center;
-        font-size: 0.75rem;
+        font-size: 1rem;
     }
 
     .explanation p {
         width: 10ch;
     }
 
-    .col1 a {
+    a {
         font-size: 1rem;
     }
 
@@ -130,7 +129,7 @@ span{
         font-size: 0.75rem;
     }
 
-    .col1 a {
+    a {
         font-size: 0.75rem;
     }
 
