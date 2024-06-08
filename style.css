@@ -97,26 +97,22 @@ span{
         height: 100%;
     }
 }
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     .col, .col1 {
-        flex-basis: 100%;
+        flex-basis: 50%;
         padding-left: 0;
     }
 
     h2 {
-        font-size: 40px;
-        padding-left: 0;
-        margin-bottom: 20px;
+        font-size: 1rem;
     }
 
-    p {
-        font-size: 13px;
-        margin-left: 0;
+    .explanation p {
+        width: 40ch;
     }
 
     .col1 a {
-        font-size: 20px;
-        margin-right: 10px;
+        font-size: 3rem;
     }
 
     span {
@@ -131,15 +127,15 @@ span{
 
 @media (max-width: 480px) {
     h2 {
-        font-size: 30px;
+        font-size: 2rem;
     }
 
     p {
-        font-size: 12px;
+        font-size: 0.75rem;
     }
 
     .col1 a {
-        font-size: 18px;
+        font-size: 0.75rem;
     }
 
     span {
