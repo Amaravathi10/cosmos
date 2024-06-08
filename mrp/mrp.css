@@ -148,7 +148,7 @@ footer {
     }
 
     nav ul li a {
-        font-size: 14px;
+        font-size: 1rem;
     }
 
     .row {
@@ -163,17 +163,17 @@ footer {
     }
 
     h1 {
-        font-size: 40px;
+        font-size: 3rem;
     }
 
     p {
-        font-size: 12px;
+        font-size: 1rem;
         line-height: 18px; 
     } 
 
     button {
         width: 150px;
-        font-size: 14px;
+        font-size: 1rem;
         margin-top: 20px;
     }
 
@@ -186,13 +186,12 @@ footer {
 
     main {
         padding-left: 5%;
-        padding-right: 5%;
-        font-size: 30px;
+        font-size: 2rem;
     }
 
     .photo-gallery img {
         width: 100%;
-        height: auto;
+        height: 100vh;
     }
 
     footer {
