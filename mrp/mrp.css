@@ -138,7 +138,7 @@ footer {
     } 
 
     .navbar {
-        font-size: 2rem;
+        font-size: 1rem;
     }
 
     .row {
@@ -173,8 +173,8 @@ footer {
     }
 
     .photo-gallery img {
-        width: 100%;
-        height: auto;
+        width: 100px;
+        height: 100px;
     }
 
     footer {
