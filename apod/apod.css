@@ -199,7 +199,7 @@ label {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 480px) {
   h1 {
     font-size: 2rem;
     padding-left: 5px;
@@ -222,7 +222,7 @@ label {
     font-size: 0.75rem;
   }
   .media{
-    width: 30ch;
+    width:auto;
   }
 }
 footer {

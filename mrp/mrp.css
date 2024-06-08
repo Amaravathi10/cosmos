@@ -131,7 +131,7 @@ footer {
     bottom: 0;
     width: 100%;
 }
-@media (max-width: 600px) {
+@media (max-width: 480px) {
     .container {
         padding-left: 5%;
         padding-right: 5%;
