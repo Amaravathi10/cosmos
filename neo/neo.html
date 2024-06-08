@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEO Data Query</title>
+    <link rel="stylesheet" href="neo.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <nav>
+                <ul>
+                    <li> <a href="../apod/apod.html">APOD</a></li>
+                    <li> <a href="../mrp/mrp.html">MRP</a></li>
+                    <li> <a href="../nil/nil.html">NIL</a></li>
+                    <li> <a href="../index.html">HOME</a></li>
+                </ul>
+            </nav>
+        </div> 
+        
+        
+        <div class="row">
+            <div class="col">
+                <h1>Nasa Earth Observation</h1>
+                <p>NeoWs (Near Earth Object Web Service) is a RESTful web service for near earth Asteroid information. With NeoWs a user can: search for Asteroids based on their closest approach date to Earth, lookup a specific Asteroid with its NASA JPL small body id, as well as browse the overall data-set.</p>
+            </div>
+            <div class="col1">
+                <form id="date-form">
+                    <label for="start-date">Start Date:<br></label>
+                    <input type="date" id="start-date" name="start-date" required>
+                    <br>
+                    <label for="end-date">End Date:<h6 style="color:ivory;"><span style="color: red;">Note</span>: within 7 days after start date</h6><br></label>
+                    <input type="date" id="end-date" name="end-date" required>
+                    
+                    <br>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+
+    <div id="neo-data" class="neo-data">
+    </div>
+    
+    <script src="neo.js"></script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NASA Image Library</title>
+    <link rel="stylesheet" href="nil.css">
+</head>
+<body>
+    <div class="container">
+        
+        <div class="navbar">
+            <nav>
+                <ul>
+                    <li> <a href="../apod/apod.html">APOD</a></li>
+                    <li> <a href="../mrp/mrp.html">MRP</a></li>
+                    <li> <a href="../neo/neo.html">NEO</a></li>
+                    <li> <a href="../index.html">HOME</a></li>
+                </ul>
+            </nav> 
+            
+        </div>
+        <div class="row">
+            <div class="col">
+                <h1>NASA Image Library</h1>
+                <p>Search and download out-of-this-world images files by keyword. The NASA Image Library website consolidates imagery spread across more than 60 collections of over 140,000 NASA images. These media files come from across the agency’s many missions in aeronautics, astrophysics, Earth science and human spaceflight. </p>
+            </div>
+            <div class="col1">
+                
+                <label for="search">Search for Images: </label>
+                <input type="text" id="search" placeholder="Enter keyword..." />
+                <h6>(ex:galaxy, solar system...)</h6>
+                <button  onclick="getNasaImages()"><a href="#main"> Search</a></button>
+            </div>
+        </div>
+    </div>
+    <main id="main">
+        <section id="image-gallery">
+            <!-- Images will be displayed here -->
+            
+        </section>
+    </main>
+    <footer>
+        <p>Data provided by NASA's Image and Video Library API</p>
+    </footer>
+    <!-- Include jQuery -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="nil.js"></script>
+</body>
+</html>

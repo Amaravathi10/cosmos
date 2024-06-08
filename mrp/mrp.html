@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mars Rover Photos</title>
+    <link rel="stylesheet" href="mrp.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <nav>
+                <ul>
+                    <li> <a href="../apod/apod.html">APOD</a></li>
+                    <li> <a href="../nil/nil.html">NIL</a></li>
+                    <li> <a href="../neo/neo.html">NEO</a></li>
+                    <li> <a href="../index.html">HOME</a></li>
+                </ul>
+            </nav> 
+        </div>
+        <div class="row">
+            <div class="col">
+                <h1><span style="color: gold;"> MARS </span>Rover Photos</h1>
+                <p>Photos taken by NASA's Curiosity Rover on Sol 1000</p>
+                <button type="button"><a href="#main">EXPLORE</a></button>
+            </div>
+            <div class="col">
+                <div class="card">
+                    
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    
+    <main id="main">
+        <div id="photo-gallery" class="photo-gallery">
+            <!-- Photos will be injected here -->
+        </div>
+    </main>
+    <footer>
+        <p>Data provided by NASA's Mars Rover Photos API</p>
+    </footer>
+    <!-- Include jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="mrp.js"></script>
+</body>
+</html>
