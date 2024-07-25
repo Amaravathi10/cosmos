@@ -1,5 +1,7 @@
 # Cosmos
 
+https://amaravathi10.github.io/cosmos/
+
 ![Cosmos](main.png)
 
 Welcome to **Cosmos**! This project is a website dedicated to space enthusiasts, providing access to stunning images of distant galaxies, real-time data from Mars, and exclusive content from NASA.
